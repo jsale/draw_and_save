@@ -3,6 +3,8 @@
 var drawCanvas = document.getElementById("drawCanvas");
 var context = drawCanvas.getContext("2d");
 
+$('#drawCanvas').css('cursor','pointer')
+
 $(document).ready(function () {
 	initialize();
 });
