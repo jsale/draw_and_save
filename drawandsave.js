@@ -72,6 +72,8 @@ function finishDrawing(mouseEvent, drawCanvas, context) {
 				.unbind("mouseout");
 }
 
+// When the user clicks "Save Image" this function is called and it 
+// passes the params variable to a drawandsave1.php to be saved as a PNG.
 function saveImage() {
 	var b_canvas = document.getElementById("drawCanvas");
 	var b_context = b_canvas.getContext("2d");
