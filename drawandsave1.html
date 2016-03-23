@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <title>Draw Lines and Save PNG Image</title>
+ 
+   
+</head>
+ 
+<body>
+<h1>Canvas Drawing Example</h1>
+
+<div>
+<canvas id="drawCanvas" width="800px" height="600px" style="border:#666; border-width:medium; border-style:solid;" ></canvas>
+</div>
+<a href="#" onClick="saveImage()">Save Image</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="images/screengrabs/saved_canvas.png" target="new">View Image</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#" onClick="clearCanvas()">Clear Canvas</a>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="drawandsave.js"></script>
+
+<script>
+	$('#drawCanvas').css('cursor','pointer')
+</script>
+
+</body>
+</html> 
